@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "wWulwePQP1CX9HkLtmZWuoaKjStxeV6mdTmVqbv5j1FQwlKVlOUYnXeBlrEOIzK3eCUHopnIWdF75XAIJWTMxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tkddl\\PsiDdrive\\1.Project\\PortFolioProject\\MyGameProject\\My-MMO-RPG\\MY-MMO-RPG-SERVER\\Server\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tkddl\\.nuget\\packages\\google.protobuf\\3.21.11\\google.protobuf.3.21.11.nupkg.sha512",
+    "C:\\Users\\tkddl\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\tkddl\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\tkddl\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

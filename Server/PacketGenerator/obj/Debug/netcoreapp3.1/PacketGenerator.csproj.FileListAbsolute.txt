@@ -1,0 +1,14 @@
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.exe
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.deps.json
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.runtimeconfig.json
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.runtimeconfig.dev.json
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.dll
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.pdb
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.csproj.AssemblyReference.cache
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.AssemblyInfoInputs.cache
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.AssemblyInfo.cs
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.csproj.CoreCompileInputs.cache
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.dll
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.pdb
+C:\Users\tkddl\PsiDdrive\1.Project\PortFolioProject\PortFolioProject\Server\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.genruntimeconfig.cache

@@ -1,0 +1,141 @@
+syntax = "proto3";
+
+package Protocol;
+import "google/protobuf/timestamp.proto";
+option csharp_namespace = "Google.Protobuf.Protocol";
+
+enum PacketID 
+{
+  C_LOGIN = 0;
+  S_LOGIN = 1;
+  C_CHAT = 2;
+  S_CHAT = 3;
+  S_ENTER_GAME = 4;
+  S_LEAVE_GAME = 5;
+  S_SPAWN = 6;
+  S_DESPAWN = 7;
+  C_MOVE = 8;
+  S_MOVE = 9;
+  C_SKILL = 10;
+  S_SKILL = 11;
+  S_CHANGE_HP =12;
+  C_ENTER_GAME = 13;
+  S_GAME_ROOM =14;
+  C_ROOM_CREATE = 15;
+  S_ROOM_CREATE = 16;
+}
+enum CreatureState{
+  IDLE = 0;
+  MOVING = 1;
+  SKILL = 2;
+  DEAD = 3;
+}
+enum MoveDir{
+  UP = 0;
+  DOWN = 1;
+  LEFT = 2;
+  RIGHT = 3;
+}
+
+enum GameObjectType{
+	NONE =0;
+	PLAYER =1;
+	MONSTER =2;
+	PROJECTILE =3;
+}
+
+enum SkillType{
+	SKILL_NONE =0;
+	SKILL_AUTO =1;
+	SKILL_PROJECTILE =2;
+}
+
+message C_Login {
+}
+message S_Login {
+  ObjectInfo player = 1;
+}
+message C_Chat {
+  string chat = 1;
+}
+message S_Chat {														 
+  int32 playerId = 1;
+  string chat = 2;
+}
+message S_EnterGame {
+  ObjectInfo player = 1;
+}
+message C_EnterGame {
+	int32 roomId =1;
+  string name = 2;
+}
+message S_LeaveGame {
+}
+message S_Spawn {
+  repeated ObjectInfo objects =1;
+}
+message S_Despawn {
+  repeated int32 objectIds =1;
+}
+message C_Move {
+   PositionInfo posInfo =1;
+}
+message S_Move {
+  int32 objectId = 1;
+   PositionInfo posInfo =2;
+}
+message C_Skill{
+	SkillInfo info = 1;
+}
+message S_Skill{
+	int32 objectId = 1;
+	SkillInfo info = 2;
+}
+message S_ChangeHp{
+	int32 objectId = 1;
+	int32 hp =2;
+}
+message S_GameRoom{
+	repeated RoomInfo roomInfo =1;
+}
+message C_RoomCreate{
+	int32 userCount =1;
+	string name = 2; 
+}
+message S_RoomCreate{
+	int32 roomId =1;
+}
+
+
+message RoomInfo{
+	ObjectInfo roomMaster =1;
+	int32 roomId =2;	
+	string name = 3; 
+	int32 userMax =4;
+}
+message ObjectInfo
+{
+  int32 objectId = 1;
+  string name = 2;
+  PositionInfo posInfo =3;
+  StatInfo statInfo =4;
+}
+message PositionInfo 
+{
+  CreatureState state = 1;
+  MoveDir moveDir = 2;
+  int32 posX = 3;
+  int32 posY = 4;
+}
+message SkillInfo{
+	int32 skillId = 1;
+}
+
+message StatInfo{
+	int32 level = 1;
+	int32 hp = 2;
+	int32 maxHp = 3;
+	int32 attack = 4;
+	float speed =5;
+	int32 totalExp =6;
+}
