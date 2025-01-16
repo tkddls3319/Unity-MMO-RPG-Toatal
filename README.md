@@ -9,15 +9,15 @@ Unity를 활용한 게임 개발과 C# 기반의 고성능 IOCP 서버를 결합
 
 ### Client 폴더
 - Unity로 구현된 클라이언트 프로젝트로, 실시간 데이터 송수신과 사용자 인터페이스를 관리합니다.
-- **My-MMORPG-Client 저장소와 동일**:
+- **My-MMORPG-Client 저장소와 동일**
 
 ### Server 폴더
 - C# 기반의 IOCP 서버로, 클라이언트 간의 실시간 데이터 동기화와 게임 상태 관리를 담당합니다.
-- **My-MMORPG-Server 저장소와 동일**:
+- **My-MMORPG-Server 저장소와 동일**
 
 ### Common 폴더
 - 패킷 자동화 프로그램으로, Protobuf 기반의 패킷 정의를 바탕으로 클라이언트와 서버에서 공용으로 사용할 C# 코드를 자동 생성합니다.
-- **My-MMORPG-PacketControl 저장소와 동**:
+- **My-MMORPG-PacketControl 저장소와 동일**
 
 ## 주요 특징
 - **Unity와 IOCP 서버의 결합**:
